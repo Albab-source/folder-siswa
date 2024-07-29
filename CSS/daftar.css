@@ -1,0 +1,51 @@
+		#card { width: 400px;
+				height: 300px;
+				color: #fff;
+				border: solid;
+				border-color: #fff;
+				border-radius: 5px;
+				background: rgba(0, 70, 50, 0.5);
+				position: absolute;
+				transform: translate(-27%, -33%);
+				top: 40%;
+				left: 40%;
+				padding: 10px 50px 50px 50px; }
+		.input { height: 25px;
+				width: 100%;
+				color: #fff;
+				border: 1px solid blanchedalmond;
+				background: none;
+				outline: none;
+				margin-bottom: 15px; }
+		.input:hover { border-color: aqua; }
+		.input:onclick { border-color: aqua; }
+		p { font-family: centaur;
+			font-size: 25px;
+			font-weight: bold;
+			text-align: left;
+			margin-bottom: 0; }
+		legend { font-family: centaur;
+			font-size: 15px;
+			font-weight: bold;
+			text-align: left;
+			margin-bottom: 26px; }
+		#card input[type="submit"]{
+				margin: 0px 0 12px;
+				background: darkcyan;
+				width: 101%;
+				height: 25px;
+				border: none;
+				margin-top: 0;
+				border-radius: 8px; }
+		#card input[type="submit"]:hover {
+				background: aqua; }
+		#card input[type="button"]{
+				margin: 0px 0 12px;
+				background: darkcyan;
+				width: 101%;
+				height: 25px;
+				border: none;
+				margin-top: 0;
+				border-radius: 8px; }
+		#card input[type="button"]:hover {
+				background: aqua; }

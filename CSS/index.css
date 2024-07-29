@@ -1,0 +1,55 @@
+* {margin: 0px;padding: 0px;}
+    input{padding: 5px;}
+    a { text-decoration: none; }
+      .input{ border: none;
+        background: none;
+        outline: none;
+        text-align: left;
+        width: 600px;
+        height: 5%;
+        margin-left: 28%;
+        margin-top: 10px; } 
+      .btn { border: none;
+        border-radius: 5px;
+        height: 30px;
+        outline: none;
+        background-color: aqua;
+        overflow: visible;
+         }
+      .btn:hover { color: darkred;
+        background-color: aquamarine; }
+        .menu{ width: 100%;
+          border-bottom: solid;
+          font-family: copperplate gothic bold;
+          height: 50px;
+          background: #008B8B;
+          font-weight: bold;
+          color: antiquewhite;
+          line-height: 50px; }
+        .menu ul{ list-style: none;
+          color: antiquewhite;
+          float: right; }
+        .menu ul li { display: inline-block;
+          font-size: 20px; }
+        .menu ul li a{ color: antiquewhite;
+          text-align: center;
+          text-decoration: none;
+          width: 100px;
+          display: block; }
+        .menu ul ul{ display: none;}
+        .menu ul ul li{display: block;}
+        .menu ul ul li a{display: inline-block;width: 150px;}
+        .menu ul li a:hover { display: block;
+          background: #26C4C2;
+          color: lightgray; }
+        .menu ul li:hover ul { display: block;
+          position: absolute;
+          background: #008B8B; }
+
+        .tabel {margin-left: 8%;
+          margin-top: 2%;
+          margin-right: 10px;}
+        .tabel td {font-weight: 700;
+          font-family: sans-serif;
+          padding: 10px; }
+        .tabel input { padding: 5px }
